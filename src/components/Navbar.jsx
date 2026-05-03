@@ -49,7 +49,7 @@ const Navbar = () => {
                                         className={`h-1 w-full ${
                                             location.pathname === link.path
                                                 ? "bg-blue-600"
-                                                : "bg-white"
+                                                : "#f8fafc"
                                         }`}
                                     ></span>
                                 </div>
