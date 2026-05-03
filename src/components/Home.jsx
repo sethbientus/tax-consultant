@@ -2,7 +2,7 @@ import Hero from "./Hero";
 import ServicesSection from "./ServicesSection";
 import bnrImage from "../assets/bnr.png";
 import rdbImage from "../assets/rdb.png";
-import rraImage from "../assets/rra.jpg";
+import rraImage from "../assets/rra.png";
 import bbrandImage from "../assets/bbrand.jpg";
 import ollyImage from "../assets/olly.jpg";
 
@@ -15,7 +15,7 @@ const Home = () => (
             </h2>
         </div>
         <section className="py-6 bg-white border-y border-slate-50 overflow-hidden">
-            <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-center items-center gap-12 opacity-60 grayscale-25">
+            <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-center items-center gap-12">
                 <span className="text-2xl">
                     <img
                         src={bnrImage}
