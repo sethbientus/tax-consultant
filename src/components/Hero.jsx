@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 import { Link } from "react-router-dom";
+import mkbImage from "../assets/mkb_image.jpeg";
+import logoImage from "../assets/logo.jpeg";
 
 const Hero = () => {
     return (
@@ -17,7 +19,7 @@ const Hero = () => {
                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                             <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
                         </span>
-                        Trusted by 500+ Corporations
+                        Trusted by 20+ Corporations
                     </div>
                     <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 leading-tight mb-6">
                         Strategic Tax <br />
@@ -46,7 +48,7 @@ const Hero = () => {
                     className="relative order-1 lg:order-2"
                 >
                     <img
-                        src="/mkb_image.jpeg?auto=format&fit=crop&q=80&w=900"
+                        src={mkbImage}
                         alt="Tax Professional"
                         className="rounded-3xl shadow-2xl z-10 relative"
                     />
@@ -56,7 +58,7 @@ const Hero = () => {
                         </div>
                         <div>
                             <img
-                                src="/logo.jpeg"
+                                src={logoImage}
                                 className="rounded-2xl shadow-xl w-20 h-15"
                                 alt="Makabe"
                             />

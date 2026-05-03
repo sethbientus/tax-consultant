@@ -320,7 +320,7 @@ const Contact = () => {
                             {/* --- SECURITY LAYER: MATH CHALLENGE --- */}
                             <div className="flex flex-wrap gap-3 items-center p-5 rounded-2xl ">
                                 <label className="block text-sm font-bold text-black">
-                                    Security Check: Solve {captcha.a} +{" "}
+                                    Security question: Solve {captcha.a} +{" "}
                                     {captcha.b} =
                                 </label>
                                 <div className="flex items-center gap-4">

@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { SendHorizonal, CheckCircle2 } from "lucide-react";
+import mkbImage from "../assets/mkb_image.jpeg";
+import logoImage from "../assets/logo.jpeg";
 
 const About = () => {
     return (
@@ -42,7 +44,7 @@ const About = () => {
                     </div>
                     <div className="relative">
                         <img
-                            src="/mkb_image.jpeg?auto=format&fit=crop&q=80&w=800"
+                            src={mkbImage}
                             className="rounded-2xl shadow-xl"
                             alt="Office Meeting"
                         />
@@ -52,7 +54,7 @@ const About = () => {
                             </div>
                             <div>
                                 <img
-                                    src="/logo.jpeg"
+                                    src={logoImage}
                                     className="rounded-2xl shadow-xl w-20 h-15"
                                     alt="Makabe"
                                 />

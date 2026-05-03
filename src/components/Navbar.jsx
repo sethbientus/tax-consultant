@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
+import logoImage from "../assets/logo.jpeg";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,7 @@ const Navbar = () => {
                     >
                         <div className="p-1 rounded-lg text-white flex items-center gap-1">
                             <img
-                                src="/logo.jpeg?auto=format&fit=crop&q=80&w=800"
+                                src={logoImage}
                                 className="rounded-2xl shadow-xl w-25 h-18"
                                 alt="Makabe"
                             />
