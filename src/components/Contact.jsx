@@ -92,10 +92,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                "service_6bqut89",
-                "template_e4elx8b",
+                "service_xujjtol",
+                "template_n6t7mk8",
                 formRef.current,
-                "pPQ09cmvSkrDIKQ0d",
+                "AxJx4RzciOUiKAZCr",
             )
             .then(() => {
                 toast.success("Message sent successfully!");
